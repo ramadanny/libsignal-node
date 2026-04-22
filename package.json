@@ -1,8 +1,8 @@
 {
-  "name": "@whiskeysockets/libsignal-node",
-  "version": "2.0.1",
+  "name": "libsignal-node",
+  "version": "2.0.2",
   "description": "Open Whisper Systems' libsignal for Node.js",
-  "repository": "WhiskeySockets/libsignal-node",
+  "repository": "ramdanny/libsignal-node",
   "main": "index.js",
   "types": "index.d.ts",
   "keywords": [
@@ -13,13 +13,13 @@
   "license": "GPL-3.0",
   "dependencies": {
     "curve25519-js": "^0.0.4",
-    "protobufjs": "6.8.8"
+    "protobufjs": "8.0.1"
   },
   "files": [
     "src/*",
     "index.d.ts"
   ],
   "devDependencies": {
-    "eslint": "6.0.1"
+    "eslint": "10.2.1"
   }
 }
